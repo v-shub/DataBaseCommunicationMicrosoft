@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\ConsoleAppUsers\\",
+  "WorkspaceRootPath": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\DataBaseCommunicationMicrosoft\\src\\ConsoleAppUsers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C94A4117-92E5-4C18-940E-3D4014045BA7}|ConsoleAppUsers\\ConsoleAppUsers.csproj|c:\\users\\victo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\pract\\consoleappusers\\consoleappusers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C94A4117-92E5-4C18-940E-3D4014045BA7}|ConsoleAppUsers\\ConsoleAppUsers.csproj|c:\\users\\victo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\pract\\databasecommunicationmicrosoft\\src\\consoleappusers\\consoleappusers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C94A4117-92E5-4C18-940E-3D4014045BA7}|ConsoleAppUsers\\ConsoleAppUsers.csproj|solutionrelative:consoleappusers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\ConsoleAppUsers\\ConsoleAppUsers\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\DataBaseCommunicationMicrosoft\\src\\ConsoleAppUsers\\ConsoleAppUsers\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleAppUsers\\Program.cs",
-              "ToolTip": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\ConsoleAppUsers\\ConsoleAppUsers\\Program.cs",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\DataBaseCommunicationMicrosoft\\src\\ConsoleAppUsers\\ConsoleAppUsers\\Program.cs",
               "RelativeToolTip": "ConsoleAppUsers\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAiwEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T10:38:56.658Z",
               "EditorCaption": ""
