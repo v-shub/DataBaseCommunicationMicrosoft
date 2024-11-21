@@ -64,21 +64,68 @@ namespace ConsoleAppUsers
                             bool isChCountCorrect = Int32.TryParse(stringAddInput[3], out childrenCount);
                             bool isBirthDateCorrect= DateTime.TryParse(stringAddInput[2], out birthDate);
                             if (isBirthDateCorrect & isChCountCorrect & userName.Length < 51 & password.Length < 31 & extraInfo.Length < 4001)
+                            {
+                                sqlQuery = $@"insert into Users (Name,Password,Birthday_date,Children_count,Extra_info) values ('{userName}', '{password}', ('{birthDate}'), {childrenCount}, '{extraInfo}')";
+                                cmd = new SqlCommand(sqlQuery, conn);
+                                int rowsAffected = cmd.ExecuteNonQuery();
+                                Console.WriteLine(rowsAffected + " user(s) added");
                                 break;
+                            }
                             else
                                 Console.WriteLine(wrongInputMessage);
                         }
 
                         break;
                     case "3":
+                        Console.WriteLine("Изменение данных пользователя:\nВведите ID пользователя, которого хотите изменить");
+                        while (true)
+                        {
+                            bool isIDCorrect = Int32.TryParse(Console.ReadLine(), out id);
+                            if (isIDCorrect)
+                            {
+                                Console.WriteLine("Введите следующие данные через запятую \",\"\nName,Password,Birthday_date,Children_count,Extra_info");
+                                while (true)
+                                {
+                                    string[] stringAddInput = Console.ReadLine().Split(',');
+                                    if (stringAddInput.Length != 5)
+                                    {
+                                        Console.WriteLine(wrongInputMessage);
+                                        continue;
+                                    }
+                                    userName = stringAddInput[0];
+                                    password = stringAddInput[1];
+                                    extraInfo = stringAddInput[4];
+                                    bool isChCountCorrect = Int32.TryParse(stringAddInput[3], out childrenCount);
+                                    bool isBirthDateCorrect = DateTime.TryParse(stringAddInput[2], out birthDate);
+                                    if (isBirthDateCorrect & isChCountCorrect & userName.Length < 51 & password.Length < 31 & extraInfo.Length < 4001)
+                                    {
+                                        break;
+                                    }
+                                    else
+                                        Console.WriteLine(wrongInputMessage);
+                                }
+                                break;
+                            }
+                            else
+                                Console.WriteLine(wrongInputMessage);
+                        }
                         break;
                     case "4":
                         Console.WriteLine("Удаление пользователя:\nВведите ID пользователя, которого хотите удалить");
-                        bool isIDCorrect = Int32.TryParse(Console.ReadLine(), out id);
-                        sqlQuery = $"UPDATE Users SET Deleted_at = getdate() WHERE ID = {id}";
-                        cmd = new SqlCommand(sqlQuery, conn);
-                        int rowsAffected = cmd.ExecuteNonQuery();
-                        Console.WriteLine(rowsAffected + " user(s) deleted");
+                        while (true)
+                        {
+                            bool isIDCorrect = Int32.TryParse(Console.ReadLine(), out id);
+                            if (isIDCorrect)
+                            {
+                                sqlQuery = $"UPDATE Users SET Deleted_at = getdate() WHERE ID = {id}";
+                                cmd = new SqlCommand(sqlQuery, conn);
+                                int rowsAffected = cmd.ExecuteNonQuery();
+                                Console.WriteLine(rowsAffected + " user(s) deleted");
+                                break;
+                            }
+                            else
+                                Console.WriteLine(wrongInputMessage);
+                        }
                         break;
                     case "5":
                         break;
