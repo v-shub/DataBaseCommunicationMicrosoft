@@ -49,7 +49,7 @@ namespace ConsoleAppUsers
                         reader.Close();
                         break;
                     case "2":
-                        Console.WriteLine("Добавление пользователя:\nВведите следующие данные через запятую \",\"\nName,Password,Birthday_date,Children_count,Extra_info");
+                        Console.WriteLine("Добавление пользователя:\nВведите следующие данные через запятую \",\"\nUsername,Password,Birthday_date,Children_count,Extra_info");
                         while (true)
                         {
                             string[] stringAddInput = Console.ReadLine().Split(',');
@@ -65,7 +65,7 @@ namespace ConsoleAppUsers
                             bool isBirthDateCorrect= DateTime.TryParse(stringAddInput[2], out birthDate);
                             if (isBirthDateCorrect & isChCountCorrect & userName.Length < 51 & password.Length < 31 & extraInfo.Length < 4001)
                             {
-                                sqlQuery = $@"insert into Users (Name,Password,Birthday_date,Children_count,Extra_info) values ('{userName}', '{password}', ('{birthDate}'), {childrenCount}, '{extraInfo}')";
+                                sqlQuery = $@"insert into Users (Username,Password,Birthday_date,Children_count,Extra_info) values ('{userName}', '{password}', ('{birthDate}'), {childrenCount}, '{extraInfo}')";
                                 cmd = new SqlCommand(sqlQuery, conn);
                                 int rowsAffected = cmd.ExecuteNonQuery();
                                 Console.WriteLine(rowsAffected + " user(s) added");
@@ -83,7 +83,7 @@ namespace ConsoleAppUsers
                             bool isIDCorrect = Int32.TryParse(Console.ReadLine(), out id);
                             if (isIDCorrect)
                             {
-                                Console.WriteLine("Введите следующие данные через запятую \",\"\nName,Password,Birthday_date,Children_count,Extra_info");
+                                Console.WriteLine("Введите следующие данные через запятую \",\"\nUsername,Password,Birthday_date,Children_count,Extra_info");
                                 while (true)
                                 {
                                     string[] stringAddInput = Console.ReadLine().Split(',');
@@ -99,6 +99,10 @@ namespace ConsoleAppUsers
                                     bool isBirthDateCorrect = DateTime.TryParse(stringAddInput[2], out birthDate);
                                     if (isBirthDateCorrect & isChCountCorrect & userName.Length < 51 & password.Length < 31 & extraInfo.Length < 4001)
                                     {
+                                        sqlQuery = $@"UPDATE Users SET Username = '{userName}', Password = '{password}', Birthday_date = ('{birthDate}'), Children_count = {childrenCount}, Extra_info = '{extraInfo}' WHERE ID = {id}";
+                                        cmd = new SqlCommand(sqlQuery, conn);
+                                        int rowsAffected = cmd.ExecuteNonQuery();
+                                        Console.WriteLine(rowsAffected + " user(s) updated");
                                         break;
                                     }
                                     else
