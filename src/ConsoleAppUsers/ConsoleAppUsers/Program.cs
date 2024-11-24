@@ -132,6 +132,40 @@ namespace ConsoleAppUsers
                         }
                         break;
                     case "5":
+                        Console.WriteLine("Авторизация:\nВведите свой ID");
+                        while (true)
+                        {
+                            bool isIDCorrect = Int32.TryParse(Console.ReadLine(), out id);
+                            if (isIDCorrect)
+                            {
+                                Console.WriteLine("Введите свой пароль");
+                                password = Console.ReadLine();
+                                sqlQuery = $"select Password from Users where ID = {id} and Deleted_at is null";
+                                cmd = new SqlCommand(sqlQuery, conn);
+                                if(password.Equals(cmd.ExecuteScalar()))
+                                {
+                                    Console.WriteLine("Авторизация прошла успешно. Вот все ваши данные");
+                                    sqlQuery = $"select * from Users where ID = {id}";
+                                    cmd = new SqlCommand(sqlQuery, conn);
+                                    SqlDataReader userReader = cmd.ExecuteReader();
+                                    while (userReader.Read())
+                                    {
+                                        id = userReader.GetInt32(0);
+                                        userName = userReader.GetString(1);
+                                        birthDate = userReader.GetDateTime(3);
+                                        childrenCount = userReader.GetInt32(4);
+                                        extraInfo = userReader.GetString(5);
+                                        Console.WriteLine($"{id}\t{userName}\t{password}\t{birthDate}\t{childrenCount}\t{extraInfo}");
+                                    }
+                                    userReader.Close();
+                                }
+                                else
+                                    Console.WriteLine("Неверный ID или пароль. Возможно, аккаунт удалён");
+                                break;
+                            }
+                            else
+                                Console.WriteLine(wrongInputMessage);
+                        }
                         break;
                     default:
                         Console.WriteLine("Ваш выбор не соответствует ни одному варианту. Попробуйте ещё раз");
