@@ -6,7 +6,30 @@
         xmlns:local="clr-namespace:WpfAppPosts"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="20 8 20 8" />
+            <Setter Property="Width" Value="100" />
+            <Setter Property="Height" Value="30" />
+        </Style>
+    </Window.Resources>
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <DataGrid AutoGenerateColumns="False" x:Name="postsGrid">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Creator_ID}" Header="Creator_ID" Width="125"/>
+                <DataGridTextColumn Binding="{Binding Created_at}" Header="Created_at" Width="80"/>
+                <DataGridTextColumn Binding="{Binding Header}" Header="Header" Width="125"/>
+                <DataGridTextColumn Binding="{Binding Post_content}" Header="Post_content" Width="125"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel HorizontalAlignment="Center"  Grid.Row="1" Orientation="Horizontal">
+            <Button x:Name="updateButton" Content="Update" Click="updateButton_Click" />
+            <Button x:Name="deleteButton" Content="Delete" Click="deleteButton_Click" />
+        </StackPanel>
     </Grid>
 </Window>
