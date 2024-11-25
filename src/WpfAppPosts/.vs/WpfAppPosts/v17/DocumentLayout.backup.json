@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\DataBaseCommunicationMicrosoft\\src\\WpfAppPosts\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4595A49E-4EE5-4CF3-AE73-54367D03EB24}|WpfAppPosts\\WpfAppPosts.csproj|c:\\users\\victo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\pract\\databasecommunicationmicrosoft\\src\\wpfappposts\\wpfappposts\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4595A49E-4EE5-4CF3-AE73-54367D03EB24}|WpfAppPosts\\WpfAppPosts.csproj|solutionrelative:wpfappposts\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4595A49E-4EE5-4CF3-AE73-54367D03EB24}|WpfAppPosts\\WpfAppPosts.csproj|c:\\users\\victo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\pract\\databasecommunicationmicrosoft\\src\\wpfappposts\\wpfappposts\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4595A49E-4EE5-4CF3-AE73-54367D03EB24}|WpfAppPosts\\WpfAppPosts.csproj|solutionrelative:wpfappposts\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4595A49E-4EE5-4CF3-AE73-54367D03EB24}|WpfAppPosts\\WpfAppPosts.csproj|C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\DataBaseCommunicationMicrosoft\\src\\WpfAppPosts\\wpfappposts\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4595A49E-4EE5-4CF3-AE73-54367D03EB24}|WpfAppPosts\\WpfAppPosts.csproj|solutionrelative:wpfappposts\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4595A49E-4EE5-4CF3-AE73-54367D03EB24}|WpfAppPosts\\WpfAppPosts.csproj|C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\DataBaseCommunicationMicrosoft\\src\\WpfAppPosts\\wpfappposts\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{4595A49E-4EE5-4CF3-AE73-54367D03EB24}|WpfAppPosts\\WpfAppPosts.csproj|solutionrelative:wpfappposts\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{4595A49E-4EE5-4CF3-AE73-54367D03EB24}|WpfAppPosts\\WpfAppPosts.csproj|C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\DataBaseCommunicationMicrosoft\\src\\WpfAppPosts\\wpfappposts\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4595A49E-4EE5-4CF3-AE73-54367D03EB24}|WpfAppPosts\\WpfAppPosts.csproj|solutionrelative:wpfappposts\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,15 +42,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\DataBaseCommunicationMicrosoft\\src\\WpfAppPosts\\WpfAppPosts\\App.config",
               "RelativeDocumentMoniker": "WpfAppPosts\\App.config",
               "ToolTip": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\DataBaseCommunicationMicrosoft\\src\\WpfAppPosts\\WpfAppPosts\\App.config",
               "RelativeToolTip": "WpfAppPosts\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-25T06:16:58.722Z"
+              "WhenOpened": "2024-11-25T06:16:58.722Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -65,16 +66,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\DataBaseCommunicationMicrosoft\\src\\WpfAppPosts\\WpfAppPosts\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WpfAppPosts\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\DataBaseCommunicationMicrosoft\\src\\WpfAppPosts\\WpfAppPosts\\MainWindow.xaml.cs",
               "RelativeToolTip": "WpfAppPosts\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAjwFIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T12:53:52.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T12:53:52.275Z"
             }
           ]
         }

@@ -14,7 +14,7 @@ namespace ConsoleAppUsers
         static void Main(string[] args)
         {
 
-            string connString = "Server=.;Database=FamilyLife;Trusted_Connection=True;";
+            string connString = @"Server=.;AttachDBFileName=C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\FamilyLife.mdf;Database=FamilyLife;Trusted_Connection=True;";
             SqlConnection conn = new SqlConnection(connString);
             conn.Open();
             string wrongInputMessage = "Неверный формат, повторите еще раз";
