@@ -19,7 +19,7 @@ namespace WpfAppPosts
         {
             InitializeComponent();
             connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
-            string sql = "SELECT * FROM Posts";
+            string sql = "SELECT * FROM Posts where Deleted_at is null";
             postsTable = new DataTable();
             SqlConnection connection = null;
             try
@@ -34,6 +34,10 @@ namespace WpfAppPosts
                 adapter.InsertCommand.Parameters.Add(new SqlParameter("@Header", SqlDbType.NVarChar, 200, "Header"));
                 adapter.InsertCommand.Parameters.Add(new SqlParameter("@Post_content", SqlDbType.NVarChar, 4000, "Post_content"));
                 adapter.InsertCommand.Parameters.Add("@Creator_ID", SqlDbType.Int, 0, "Creator_ID");
+
+                adapter.DeleteCommand = new SqlCommand("sp_DeletePost", connection);
+                adapter.DeleteCommand.Parameters.Add("@ID", SqlDbType.Int, 0, "ID");
+                adapter.DeleteCommand.CommandType = CommandType.StoredProcedure;
 
                 connection.Open();
                 adapter.Fill(postsTable);
