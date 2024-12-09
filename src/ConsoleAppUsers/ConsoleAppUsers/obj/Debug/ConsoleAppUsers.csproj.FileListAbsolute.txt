@@ -5,3 +5,10 @@ C:\Users\victo\OneDrive\Рабочий стол\Pract\DataBaseCommunicationMicro
 C:\Users\victo\OneDrive\Рабочий стол\Pract\DataBaseCommunicationMicrosoft\src\ConsoleAppUsers\ConsoleAppUsers\obj\Debug\ConsoleAppUsers.csproj.CoreCompileInputs.cache
 C:\Users\victo\OneDrive\Рабочий стол\Pract\DataBaseCommunicationMicrosoft\src\ConsoleAppUsers\ConsoleAppUsers\obj\Debug\ConsoleAppUsers.exe
 C:\Users\victo\OneDrive\Рабочий стол\Pract\DataBaseCommunicationMicrosoft\src\ConsoleAppUsers\ConsoleAppUsers\obj\Debug\ConsoleAppUsers.pdb
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\ConsoleAppUsers\ConsoleAppUsers\bin\Debug\ConsoleAppUsers.exe.config
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\ConsoleAppUsers\ConsoleAppUsers\bin\Debug\ConsoleAppUsers.exe
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\ConsoleAppUsers\ConsoleAppUsers\bin\Debug\ConsoleAppUsers.pdb
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\ConsoleAppUsers\ConsoleAppUsers\obj\Debug\ConsoleAppUsers.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\ConsoleAppUsers\ConsoleAppUsers\obj\Debug\ConsoleAppUsers.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\ConsoleAppUsers\ConsoleAppUsers\obj\Debug\ConsoleAppUsers.exe
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\ConsoleAppUsers\ConsoleAppUsers\obj\Debug\ConsoleAppUsers.pdb

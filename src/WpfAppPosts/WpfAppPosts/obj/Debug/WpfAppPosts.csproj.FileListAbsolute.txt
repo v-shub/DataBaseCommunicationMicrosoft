@@ -13,3 +13,18 @@ C:\Users\victo\OneDrive\Рабочий стол\Pract\DataBaseCommunicationMicro
 C:\Users\victo\OneDrive\Рабочий стол\Pract\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\obj\Debug\WpfAppPosts.csproj.CoreCompileInputs.cache
 C:\Users\victo\OneDrive\Рабочий стол\Pract\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\obj\Debug\WpfAppPosts.exe
 C:\Users\victo\OneDrive\Рабочий стол\Pract\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\obj\Debug\WpfAppPosts.pdb
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\bin\Debug\WpfAppPosts.exe.config
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\bin\Debug\WpfAppPosts.exe
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\bin\Debug\WpfAppPosts.pdb
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\obj\Debug\WpfAppPosts.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\obj\Debug\MainWindow.g.cs
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\obj\Debug\App.g.cs
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\obj\Debug\WpfAppPosts_MarkupCompile.cache
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\obj\Debug\WpfAppPosts_MarkupCompile.lref
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\obj\Debug\MainWindow.baml
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\obj\Debug\WpfAppPosts.g.resources
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\obj\Debug\WpfAppPosts.Properties.Resources.resources
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\obj\Debug\WpfAppPosts.csproj.GenerateResource.cache
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\obj\Debug\WpfAppPosts.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\obj\Debug\WpfAppPosts.exe
+C:\Users\user\Documents\Shubina\DataBaseCommunicationMicrosoft\src\WpfAppPosts\WpfAppPosts\obj\Debug\WpfAppPosts.pdb
